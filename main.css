@@ -54,6 +54,20 @@
     animation:XiaMianDongQiLai 2s infinite linear;
 }
 
+.地爱威1 {
+    position: absolute;
+    top: 10px;
+}
+
+.地爱威2 {
+    position: absolute;
+    bottom: 10px;
+}
+
+.双羽の话-好性奋哦 {
+    transform: scale(0.8);
+}
+
 .github-corner:hover .octo-arm{
     animation:octocat-wave 560ms ease-in-out;
 }
