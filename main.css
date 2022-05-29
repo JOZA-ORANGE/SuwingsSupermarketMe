@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.lvSuwings-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 800% 800%;
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(to bottom right, #EE99A7, #EE8CE1,#EE99A7,#EE8CE1,#EE99A7);
+    animation:XiaMianDongQiLai 8s infinite linear;
+}
+
+.Suwings-AaAaAaAa {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%,-50%);
+    animation:GeiWoDongQiLai 3s infinite linear;
+}
+
+.Suwings-qqHead {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.FucK-Me {
+    position: absolute;
+    z-index: 0;
+    background-size:cover
+
+}
+
+.FucK-Me-TexT {
+    transform:rotate(-45deg);
+}
+
+.A {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.LGBT {
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 300% 100%;
+    background-image: linear-gradient(to left,red,orange,yellow,green,blue,purple,blue,green,yellow,orange,red,orange,yellow,green,blue,purple);
+    animation:XiaMianDongQiLai 2s infinite linear;
+}
+
+.github-corner:hover .octo-arm{
+    animation:octocat-wave 560ms ease-in-out;
+}
+
+@keyframes XiaMianDongQiLai {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes GeiWoDongQiLai {
+    0% {
+        right: 0;
+    }
+    100% {
+        right: calc(100% - 200px);
+    }
+}
+
+@keyframes octocat-wave{
+    0%,100%{
+        transform:rotate(0);
+    }
+    20%,60%{
+        transform:rotate(-25deg);
+    }
+    40%,80% {
+        transform:rotate(10deg);
+    }
+}
+
+@media (max-width:500px){
+    .github-corner:hover .octo-arm{
+        animation:none;
+    }
+    .github-corner .octo-arm{
+        animation:octocat-wave 560ms ease-in-out;
+    }
+}
